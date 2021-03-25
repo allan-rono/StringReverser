@@ -13,7 +13,10 @@
         <div class="container">
             <div class="row justify-content-md-centre">
                 <div class="col">
-                    <h1 class="p-3 mb-2 bg-dark text-white">STRING REVERSER</h1>
+                    <h1 class="p-3 mb-2 bg-white text-dark">
+                        <img src="./Images/noun_Reverse_385504.png" width="60" height="60">STRING REVERSER 
+                    </h1>
+                    <span class="badge rounded-pill bg-primary">Newbie</span>
                 </div>
             </div>
         </div>
@@ -22,18 +25,29 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-
+                    <p class="lead">
+                        ‘Write a function to reverse string’ is one of the most obvious algorithms questions that you can expect to be asked at
+                        a JavaScript interview, especially if you are just starting your career as a software engineer.
+                    </p>
+                    <hr>
+                    <img src="./Images/Code Snippet.png">
                 </div>
                 <div class="col">
-                    <h5>Enter string to be reversed:</h5>
-                    <input id="textString">
-                    <button id="submit">Reverse</button>
+                    <h6 class="lead">Enter String to be reversed:</h6>
+                    <hr>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">String</span>
+                        <input id="textString" type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
                     <br>
-                    <p id="answer"></p>
+                    <button id="submit" class="btn btn-success">Reverse</button>
+                    <br><br>
+                    <p class="display-4" id="answer"></p>
                 </div>
             </div>
         </div>
     </main>
-    <script type="text/javascript" src="/script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
